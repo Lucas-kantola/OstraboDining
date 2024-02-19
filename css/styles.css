@@ -1,0 +1,96 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+body, h1, h2, h3, h4, p, button {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 40%;
+    background-color: white;
+    box-shadow: -4px 4px 0px 0px #948e7b, -8px 8px 0px 0px #524a34;
+}
+
+.container h4 {
+    max-width: 70%;
+    margin: 20px auto;
+}
+
+h1 {
+    margin-top: 50px;
+    text-align: center;
+    color: #9caf6a;
+}
+
+h4 {
+    text-align: center;
+    color: gray;
+}
+
+p {
+    font-size: 14px;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.banner .nav {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.banner .nav button {
+    padding: 10px 20px;
+    background-color: darkgray;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.banner .nav button.selected {
+    outline: 3px solid black;
+}
+
+.banner .nav button a {
+    text-decoration: none;
+    color: #000;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.flex {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer .column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.footer .copyright {
+    align-self: center;
+    margin-top: 30px;
+    font-size: 14px;
+}
