@@ -1,6 +1,5 @@
 <?php
 	define("TITLE", "Home | Östrabo1 Dining");
-	$content = file_get_contents('http://loripsum.net/api');
 ?>
 <!DOCTYPE html>
 <html>
