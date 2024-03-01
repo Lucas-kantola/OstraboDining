@@ -27,7 +27,7 @@ $menuItems = array(
 		"price" => 89,
 	),
 	array(
-		"title" => "Gravad lax: ",
+		"title" => "Gravad lax",
 		"price" => 118,
 	),
 	array(
