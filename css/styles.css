@@ -167,18 +167,36 @@ p {
     display: flex;
     flex-direction: column;
     width: 50%;
-    margin: 40px 40px;
+    margin: 40px auto;
     background-color: #f5f4f1; 
 }
 
 #contact-form label,
-#contact-form input,
+#contact-form input:not([type="checkbox"]),
 #contact-form textarea {
     width: 90%;
     margin-bottom: 10px;
     margin-left: 20px;
 }
+#contact-form label{
+    padding-top: 10px;
+}
+.checkbox-label {
+    display: flex;
+    align-items: left;
+}
+.checkbox-label > input {
+    margin-left: 20px;
+}
+.checkbox-label > label {
+    margin-left: 10px !important;
+}
 
 #contact-form textarea{
     height: 100px;
+}
+
+.centered-green {
+    text-align: center;
+    color: #008000; /* or any green color you prefer */
 }
